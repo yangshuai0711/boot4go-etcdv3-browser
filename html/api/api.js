@@ -1,4 +1,5 @@
-let V3_ENDPOINT = 'http://{node_host}:{node_port}'
+let V3_ENDPOINT = 'https://{node_host}:{node_port}'
+// let V3_ENDPOINT_HTTPS = 'http://{node_host}:{node_port}'
 
 let APIS = {}
 APIS.V3_ECHO = '/v3/kv/range'
